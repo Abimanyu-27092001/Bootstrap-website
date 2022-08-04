@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo/datsys.png">
+    <title>Dat.Sys</title>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Ubuntu&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Style Sheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/e1b86c1321.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <section id="title">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <img src="logo/ds.svg" alt="company-logo" class="logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <img src="logo/ds.svg" alt="company-logo" class="logo">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">SERVICES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#features">FEATURES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">CONTACT</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- Title -->
+        <div class="box">
+            <div class="square" style="--i:0;"></div>
+            <div class="square" style="--i:1;"></div>
+            <div class="square" style="--i:2;"></div>
+            <div class="square" style="--i:3;"></div>
+            <div class="square" style="--i:4;"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 title-div">
+                <h1>Next Gen Data Annotation Solutions</h1>
+                <p class="title-quote">The future of data and web base solutions is here..</p>
+                <button type="button" class="btn btn-lg contact-btn">CONTACT US</button>
+                <div class="box">
+                    <div class="square" style="--i:0;"></div>
+                    <div class="square" style="--i:1;"></div>
+                    <div class="square" style="--i:2;"></div>
+                    <div class="square" style="--i:3;"></div>
+                    <div class="square" style="--i:4;"></div>
+                </div>
+            </div>
+            <div class="col-lg-6 img-div">
+                <img class="title-img" src="images/cover.svg" alt="iphone-mockup">
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- Our Works -->
+    <section id="our-works">
+        <div class="work-head">
+            <h2 class="work-title">Great power comes</h2>
+            <h4 class="work-disc">with great responsibility</h4>
+        </div>
+        <div class="container">
+            <div class="work-div">
+                <div class="content">
+                    <h3 class="card-header">App<br>Development</h3>
+                    <img class="work-img" src="images/mouse-globe.svg" alt="App-Development">
+                    <p class="card-disc">The app development process includes creating installable applications for the
+                        mobile devices and
+                        implementing backend services, for instance data access through an API.</p>
+                </div>
+            </div>
+            <div class="work-div">
+                <div class="content">
+                    <h3 class="card-header">Annotation<br>Solutions</h3>
+                    <img class="work-img" src="images/laptop-cloud.svg" alt="Annotation">
+                    <p class="card-disc">Data annotation is the categorization and labeling of data for AI applications.
+                        Training data
+                        must be
+                        properly categorized and annotated for a specific use case.</p>
+                </div>
+            </div>
+            <div class="work-div">
+                <div class="content">
+                    <h3 class="card-header">Static<br>Websites</h3>
+                    <img class="work-img" src="images/plug-cloud.svg" alt="Static-Website">
+                    <p class="card-disc">A static website is delivered to a user exactly the way it's stored. That means
+                        that nothing on
+                        the
+                        page will change by the user or even the site administrator unless there's a redesign of the
+                        site
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Services -->
+    <section id="services">
+        <div class="service-title">
+            <h2 class="service-title">You're here because you want the best</h2>
+            <h4 class="service-disc">And we know it</h4>
+        </div>
+        <div id="service-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h4>Semantic Segmentation:</h4>
+                    <p>Semantic segmentation is the process of classifying each object in an Imagefrom a predefined set
+                        of
+                        classes. In our Dat.Sys we did both Semi & Full pixel Segmentation in an effective way. We
+                        classify
+                        many objects which are there on roads & homes. We can annotate all kinds of images.</p>
+                    <img id="ser-img" src="images/semantic-segmentation-2.png" alt="#">
+                </div>
+                <div class="carousel-item">
+                    <h4>Bounding Box:</h4>
+                    <p> A Bounding Box is an imaginary rectangle for objects detection and creates a collision box for
+                        that
+                        object. Our Dat.Sys will do both 2D & 3D Bounding Box Processes in Day vision and Night vision
+                        too.
+                        We deliver both of the processes in high quality.</p>
+                    <img id="ser-img" src="images/boxes.jpg" alt="#">
+                </div>
+                <div class="carousel-item">
+                    <h4>LiDAR:</h4>
+                    <p> LiDAR is the process of converting the images into Points by using sensors and we did point
+                        cloud
+                        Segmentation (PCS) on it for labelling the objects for training ML algorithms.
+                        We did 25k images with high quality.We did LiDAR segmentation & Bounding box too in Image &
+                        video
+                        also.
+                    </p>
+                    <img id="ser-img" src="images/New_LiDAR_chip.jpg" alt="#">
+
+                </div>
+            </div>
+            <button class="btn carousel-control-prev" type="button" data-bs-target="#service-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#service-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+
+            </button>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- Features -->
+    <section id="features">
+
+        <h2 class="text-center feature-title">Features / why you choose us</h2>
+        <div class="feature-container">
+            <div class="feature-div">
+                <div class="imgBx">
+                    <img src="images/accurate-in-work.png">
+                </div>
+                <div class="feature-content">
+                    <div>
+                        <h3><span class="fea-sty-title">A</span>ccurate in <span class="fea-sty-title">W</span>ork</h3>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We have working experience in handling
+                            numerous data <span class="feature-style">Accurately</span>.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-div">
+                <div class="imgBx">
+                    <img src="images/cyber-security.png">
+                </div>
+                <div class="feature-content">
+                    <div>
+                        <h3><span class="fea-sty-title">S</span>ecure</h3>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We provide a <span
+                                class="feature-style">Secure Service</span> to handle your <span
+                                class="feature-style">Data Safely</span>.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-div">
+                <div class="imgBx">
+                    <img src="images/passionate-experts.png">
+                </div>
+                <div class="feature-content">
+                    <div>
+                        <h3><span class="fea-sty-title">P</span>assionate <span class="fea-sty-title">E</span>xperts
+                        </h3>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We are a group of <span
+                                class="feature-style">Experienced Professionals</span> with a passion
+                            for changing the
+                            world to the next level by using <span class="feature-style">AI</span>.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-div">
+                <div class="imgBx">
+                    <img src="images/timely-delivery.png">
+                </div>
+                <div class="feature-content">
+                    <div>
+                        <h3><span class="fea-sty-title">T</span>imely <span class="fea-sty-title">D</span>elivery</h3>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We are <span
+                                class="feature-style">Committed</span>
+                            to our words and so wil
+                            <span class="feature-style">Timely Delivery</span> of our <span
+                                class="feature-style">Services</span>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- About us -->
+    <section class="about"></section>
+
+
+    <!-- Contact -->
+    <section id="contact">
+        <div>
+            <h2 class="contact-title">Reach us</h2>
+        </div>
+        <div class="form-div">
+            <form action="get">
+                <div class="imgbx">
+                    <label for="first-name">First Name:</label>
+                    <br>
+                    <input type="text" id="first-name" placeholder="EG.,abi" required>
+                </div>
+
+                <div class="imgbx">
+                    <label for="email-adderss">Email Address:</label>
+                    <br>
+                    <input type="email" id="email-adderss" placeholder="EG.,abi@gmil.com" required>
+                </div>
+                <div class="imgbx">
+                    <label for="phone-number">Phone Number:</label>
+                    <br>
+                    <input type="text" id="phone-number" placeholder="EG., +91 2003004000">
+                </div>
+                <div class="imgbx">
+                    <label for="message">Message:</label>
+                    <br>
+                    <textarea name="" id="message" rows="4" placeholder="Enter You Message.."></textarea>
+                </div>
+                <div class="submit">
+                    <button class="btn btn-primary" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <section id="footer">
+
+        <i class="fa-brands fa-twitter social-media"></i>
+        <i class="fa-brands fa-facebook-f social-media"></i>
+        <i class="fa-brands fa-square-instagram social-media"></i>
+        <i class="fa-solid fa-envelope social-media"></i>
+        <p>© Copyright TinDog</p>
+
+    </section>
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".work-div"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 1,
+        });
+    </script>
+</body>
+
+</html>
